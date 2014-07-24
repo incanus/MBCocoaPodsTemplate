@@ -8,7 +8,7 @@
 
 #import "MBCPTViewController.h"
 
-#import <MapBox/MapBox.h>
+#import <Mapbox-iOS-SDK/MapBox.h>
 
 @interface MBCPTViewController ()
 
