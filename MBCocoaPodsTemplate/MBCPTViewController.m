@@ -23,6 +23,7 @@
     [super viewDidLoad];
 
     self.mapView = [[RMMapView alloc] initWithFrame:self.view.bounds];
+    self.mapView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
 
     [self.view addSubview:self.mapView];
 }
